@@ -1,0 +1,36 @@
+{
+    "name": "The great game - Copy - Copy",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "sprite-scaling": "*",
+        "color-coded-tilemap": "*",
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24",
+        "arcade-mini-menu": "github:riknoll/arcade-mini-menu#v0.1.0",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.1.0",
+        "animation": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.1.25",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
